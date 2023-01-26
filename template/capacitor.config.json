@@ -1,0 +1,11 @@
+{
+  "appId": "io.marimo.toappy",
+  "appName": "toappy-app",
+  "bundledWebRuntime": false,
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
