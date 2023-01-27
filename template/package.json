@@ -1,26 +1,32 @@
 {
-  "name": "capacitor-app",
+  "name": "toappy-builder-template-mobile",
   "version": "1.0.0",
-  "description": "An Amazing Capacitor App",
+  "description": "toappy-builder-template-mobile",
   "main": "index.js",
-  "keywords": [
-    "capacitor",
-    "mobile"
-  ],
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export -o build"
   },
   "dependencies": {
     "@capacitor/camera": "latest",
     "@capacitor/core": "latest",
-    "@capacitor/splash-screen": "latest"
+    "@capacitor/splash-screen": "latest",
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@next/font": "^13.1.5",
+    "next": "latest",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
     "@capacitor/android": "^4.6.2",
-    "@capacitor/cli": "latest",
-    "vite": "^2.9.13"
+    "@capacitor/cli": "latest"
   },
   "author": "",
   "license": "ISC"
