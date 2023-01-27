@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export -o build"
+    "export": "next export -o build",
+    "sync": "cap sync android",
+    "make": "cap build android"
   },
   "dependencies": {
     "@capacitor/camera": "latest",
