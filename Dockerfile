@@ -15,4 +15,7 @@ RUN pnpm sync
 # keystore 정보는 프로젝트 데이터에 포함되어 있다고 생각하고, cap build android 커맨드의 파라미터가 추가되야함.
 RUN pnpm make
 
+# 빌드된 파일 다시 옮기는 코드 필요
+# 필드가 다 되었다는 플래그를 올리는 코드 필요
+
 STOPSIGNAL SIGQUIT
